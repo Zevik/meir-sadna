@@ -1,17 +1,11 @@
-import Hero from './components/Hero';
-import Description from './components/Description';
-import Features from './components/Features';
-import Pricing from './components/Pricing';
-import Footer from './components/Footer';
+'use client';
+
+import React from 'react';
 
 export default function HomePage() {
   return (
-    <div className="gradient-bg">
-      <Hero />
-      <Description />
-      <Features />
-      <Pricing />
-      <Footer />
+    <div className="p-8 text-center">
+      <h1 className="text-4xl font-bold">Hello, Next.js!</h1>
     </div>
   );
 }

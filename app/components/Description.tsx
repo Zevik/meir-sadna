@@ -1,3 +1,5 @@
+'use client';
+
 export default function Description() {
   return (
     <div className="p-8">

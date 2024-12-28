@@ -1,5 +1,7 @@
+'use client';
+
 const workshopDetails = {
-  price: "1,080 ש״ח"
+  price: '1,080 ש״ח'
 };
 
 export default function Pricing() {
