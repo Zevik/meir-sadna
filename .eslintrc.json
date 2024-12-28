@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "next/core-web-vitals",  // Required for Next.js best practices
+    "eslint:recommended"     // Basic recommended JS rules
+  ],
+  "rules": {
+    "no-unused-vars": "warn",
+    "quotes": ["error", "single"], 
+    "semi": ["error", "always"],
+    "react/no-unescaped-entities": ["error", { "forbid": [">", "}", "'", "\""] }],
+    "@next/next/no-img-element": "warn"
+  }
+}
