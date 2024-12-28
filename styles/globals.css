@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities */
+.gradient-bg {
+  @apply bg-gradient-to-br from-red-50 to-white;
+}
+
+.card-hover {
+  @apply transition-transform hover:-translate-y-2 hover:shadow-lg;
+}
+
+.decorative-shape {
+  @apply absolute opacity-30 pointer-events-none;
+}
